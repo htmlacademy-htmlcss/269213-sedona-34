@@ -6,13 +6,17 @@
   </head>
   <body>
     <header class="page-header">
-      <img class="page-header-logo" src="" alt="Логотип города Седона" />
+      <img
+        class="page-header-logo"
+        src="images/logo.svg"
+        width="139"
+        height="70"
+        alt="Логотип города Седона"
+      />
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link navigation-link-current" href="index.html"
-              >Главная</a
-            >
+            <a class="navigation-link navigation-link-current">Главная</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="about.html">О Седоне</a>
@@ -21,23 +25,23 @@
             <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
-
-        <ul class="navigation-list navigation-user">
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <span class="visually-hidden"> Поиск </span>
-            </a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <span class="visually-hidden"> Уведомления </span>
-            </a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">Хочу сюда</a>
-          </li>
-        </ul>
       </nav>
+
+      <ul class="navigation-list navigation-user">
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">
+            <span class="visually-hidden"> Поиск </span>
+          </a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">
+            <span class="visually-hidden"> Уведомления </span>
+          </a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">Хочу сюда</a>
+        </li>
+      </ul>
     </header>
 
     <main class="main-inner">
@@ -169,7 +173,12 @@
 
         <ul class="hotel-list">
           <li class="hotel-card">
-            <img class="hotel-card-image" src="blablabla" alt=" " />
+            <img 
+              class="hotel-card-image" 
+              src="images/hotels/hotel-1.jpg" 
+              width="300" 
+              height="211"
+              alt="Amara Resort & Spa" />
             <a class="hotel-card-link" href="#">
               <h3 class="hotel-card-title">Amara Resort & Spa</h3>
             </a>
@@ -183,7 +192,12 @@
           </li>
 
           <li class="hotel-card">
-            <img class="hotel-card-image" src="blablabla" alt=" " />
+            <img 
+              class="hotel-card-image" 
+              src="images/hotels/hotel-2.jpg"
+              width="300" 
+              height="211" 
+              alt="Villas at Poco Diablo" >
             <a class="hotel-card-link" href="#">
               <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
             </a>
@@ -197,7 +211,12 @@
           </li>
 
           <li class="hotel-card">
-            <img class="hotel-card-image" src="blablabla" alt=" " />
+            <img 
+              class="hotel-card-image" 
+              src="images/hotels/hotel-3.jpg"
+              width="300"
+              height="211"
+              alt="Desert Quail Inn" >
             <a class="hotel-card-link" href="#">
               <h3 class="hotel-card-title">Desert Quail Inn</h3>
             </a>
@@ -211,7 +230,12 @@
           </li>
 
           <li class="hotel-card">
-            <img class="hotel-card-image" src="blablabla" alt=" " />
+            <img
+              class="hotel-card-image"
+              src="images/hotels/hotel-4.jpg"
+              width="300"
+              height="211" 
+              alt="GreenTree Inn" />
             <a class="hotel-card-link" href="#">
               <h3 class="hotel-card-title">GreenTree Inn</h3>
             </a>
@@ -286,32 +310,52 @@
     </main>
 
     <footer class="page-footer">
-      <div class="footer-social">
-        <ul class="social-list">
-          <li class="social-item">
-            <a class="social-button" href="https://vk.com/htmlacademy">
-              <span class="visually-hidden">ВКонтакте</span>
-            </a>
-          </li>
-          <li class="social-item">
-            <a class="social-button" href="https://t.me/htmlacademy">
-              <span class="visually-hidden">Телеграм</span>
-            </a>
-          </li>
-          <li class="social-item">
-            <a
-              class="social-button"
-              href="https://www.youtube.com/user/htmlacademy"
-            >
-              <span class="visually-hidden">Ютуб</span>
-            </a>
-          </li>
-        </ul>
-        <a class="phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-        <a class="creator" href="https://htmlacademy.ru/">
-          <img class="creator-logo" src="" alt="Логотип HTML Academy" />
-        </a>
-      </div>
+      <h2 class="visually-hidden">Контакты</h2>
+      <ul class="social-list">
+        <li class="social-item">
+          <a class="social-button" href="https://vk.com/htmlacademy">
+            <img
+              src="images/vk.svg"
+              width="24"
+              height="14"
+              alt="Логотип ВКонтакте"
+            />
+          </a>
+        </li>
+        <li class="social-item">
+          <a class="social-button" href="https://t.me/htmlacademy">
+            <img
+              src="images/telegram.svg"
+              width="24"
+              height="14"
+              alt="Логотип Телеграм"
+            />
+          </a>
+        </li>
+        <li class="social-item">
+          <a
+            class="social-button"
+            href="https://www.youtube.com/user/htmlacademy"
+          >
+            <img
+              src="images/youtube.svg"
+              width="24"
+              height="14"
+              alt="Логотип Ютуб"
+            />
+          </a>
+        </li>
+      </ul>
+      <a class="phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+      <a class="creator" href="https://htmlacademy.ru/">
+        <img
+          class="creator-logo"
+          src="images/logo-academy.svg"
+          width="115"
+          height="33"
+          alt="Логотип HTML Academy"
+        />
+      </a>
     </footer>
   </body>
 </html>
